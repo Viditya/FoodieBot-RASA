@@ -1,0 +1,10 @@
+[
+  {
+    "text": "Yes",
+    "intent": "allowornot",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.695963978767395
+    }
+  }
+]

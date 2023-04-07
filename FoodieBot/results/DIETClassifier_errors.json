@@ -1,0 +1,73 @@
+[
+  {
+    "text": "Yes",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "Yes",
+        "entity": "email_provided"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "central Indian restaurant",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "central",
+        "entity": "location"
+      },
+      {
+        "start": 8,
+        "end": 14,
+        "value": "Indian",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 14,
+        "confidence_entity": 0.5083252787590027,
+        "value": "central Indian",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I need a new restaurant in Bengaluru",
+    "entities": [
+      {
+        "start": 27,
+        "end": 36,
+        "value": "Bengaluru",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 9,
+        "end": 12,
+        "confidence_entity": 0.6523981094360352,
+        "value": "new",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "location",
+        "start": 27,
+        "end": 36,
+        "confidence_entity": 0.9998583793640137,
+        "value": "bangalore",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  }
+]
